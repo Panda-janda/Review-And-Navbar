@@ -252,7 +252,7 @@ summary {
   display: block;
 }
 
-/* Create a new custom triangle on the right side */
+/* Changing design of summary arrow  */
 summary::after {
   margin-left: 1ch;
   display: inline-block;
