@@ -1,6 +1,7 @@
 // local reviews data
 const reviews = [
   {
+    // Changing description of each person here
     id: 1,
     name: 'Michael Scott',
     job: 'Regional Manager',
@@ -85,13 +86,13 @@ randomBtn.addEventListener('click', function () {
   showPerson(currentItem);
 });
 
-// start of the review
+// Modifying code to go back to start
 startBtn.addEventListener('click', function () {
   currentItem = 0;
   showPerson(currentItem);
 });
 
-// end of the document
+// Modifying code to go to the end
 endBtn.addEventListener('click', function () {
   currentItem = reviews.length - 1;
   showPerson(currentItem);
